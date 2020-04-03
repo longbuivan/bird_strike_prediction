@@ -1,9 +1,9 @@
-** This is an analyze to predict an impact of bird strike in during flight
+## This is an analyze to predict an impact of bird strike in during flight
 
-** Requirement:
+## Requirement:
 - install requirement.txt
 
-** Technical:
+## Technical:
 - Data understanding
 - Feature selection
 - Clean data
