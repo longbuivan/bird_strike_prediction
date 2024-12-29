@@ -35,7 +35,7 @@
 - Missing 633 actual bird strikes (false negatives) could have serious safety implications
 - The model's accuracy isn't strong enough for real-world deployment
 
-![image](result.png)
+![image](results.png)
 
 ## Recommendations for improvement
 
