@@ -41,9 +41,11 @@ model_lr = LogisticRegression(
     C = 1,
     class_weight = 'balanced',
     fit_intercept = False,
+    max_iter = 1000,
 )
+
 imputer = SimpleImputer(missing_values=np.nan, strategy='mean')
-# scaler = StandardScaler()
+scaler = StandardScaler()
 # linear regression
 pl_lr = make_pipeline(imputer, model_lr)
 pl_lr.fit(X_train, y_train)
@@ -83,6 +85,3 @@ score_ecl = f1_score(y_test, y_pred_ecl)
 cfs_ecl = confusion_matrix(y_test, y_pred_ecl)
 print(cfs_ecl)
 print(score_ecl)
-
-
-
