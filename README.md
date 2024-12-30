@@ -5,7 +5,7 @@
 - I hope everyone have peace.
 
 ## Requirement:
-> pip install install requirements.txt
+> pip install -r requirements.txt
 
 ## Technical:
 - Data understanding
@@ -14,7 +14,7 @@
 - Preprocessing data
 - Build model ( supervised learning)
 - Evaluate model
-- Ensamle model
+- Conclusion and enhancement
 
 ## Start Project
 
